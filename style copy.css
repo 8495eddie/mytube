@@ -32,6 +32,10 @@ h1 {
   border-color: hsl(200, 100%, 50%);
 }
 
+.background-img {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+}
+
 body {
    background-image: url(https://wallup.net/wp-content/uploads/2018/09/25/595603-abstract-3D-cube.jpg); 
 }

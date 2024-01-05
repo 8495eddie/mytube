@@ -1,0 +1,168 @@
+nav {
+    font-family: 'La Belle Aurore', cursive;
+    border-style: inset;
+    border-color: hsl(200, 100%, 50%);
+    background-color: hsl(200, 100%, 50%);
+    font-display: relative;
+    left: 600px;
+}
+
+.opac, nav { opacity: .6;}
+.opac, h1 { opacity: .6;}
+
+
+h1 {
+    font-family: 'La Belle Aurore', cursive;
+    color:hsl(200, 100%, 80%);
+    position: relative;
+    left: 300px;
+    border-style: inset;
+    border-color:  hsl(200, 100%, 50%);
+    background-color: hsl(200, 100%, 50%);
+    font-display: relative;
+    width: 140px;
+}
+
+.new-video {
+  font-family: 'La Belle Aurore', cursive;
+  color:hsl(200, 100%, 80%);
+  position: relative;
+  left: 820px;
+  border-style: outset;
+  border-color: hsl(200, 100%, 50%);
+}
+
+body {
+   background-image: url(https://wallup.net/wp-content/uploads/2018/09/25/595603-abstract-3D-cube.jpg); 
+}
+
+a {
+  color: hsl(200, 100%, 85%)
+}
+
+.iframe2 {
+  border-style: outset;
+  border-color: hsl(200, 100%, 60%);
+  margin-right: 50px;
+  position: relative;
+  left: 300px;
+}
+
+.iframemovies {
+  border-style: outset;
+  border-color: hsl(200, 100%, 60%);
+  margin-right: 50px;
+  position: relative;
+  left: 300px;
+}
+
+.iframegames {
+  border-style: outset;
+  border-color: hsl(200, 100%, 60%);
+  margin-right: 50px;
+  position: relative;
+  left: 300px;
+}
+
+.iframecars {
+  border-style: outset;
+  border-color: hsl(200, 100%, 60%);
+  margin-right: 50px;
+  position: relative;
+  left: 300px;
+}
+
+p {
+  font-family: 'La Belle Aurore', cursive;
+  color:hsl(200, 100%, 80%)
+}
+
+.backgroundmovies {
+  background-image: url(https://images.rawpixel.com/image_png_social_square/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjc4LTAwMy1wLWwxNjRwcGJ2LnBuZw.png?s=UCTpGb633T0iyAUXPOn6SwhqtK8LcceZkbWzSfOyR0U)
+}
+
+.backgroundgames {
+  background-image: url(https://842339.smushcdn.com/1563144/wp-content/uploads/2022/12/header.jpg?lossy=1&strip=1&webp=1)
+}
+
+.backgroundcars {
+  background-image: url(https://cimg3.ibsrv.net/ibimg/hgm/1920x1080-1/100/822/frankencar-2022-the-best-of-our-best-car-to-buy-nominees_100822847.jpg)
+}
+
+.backgroundupload {
+  background-image: url(https://wallup.net/wp-content/uploads/2018/09/25/595603-abstract-3D-cube.jpg)
+}
+
+.bluefont {
+  font-family: 'La Belle Aurore', cursive;
+    color:hsl(200, 100%, 80%);
+    text-align: center;
+}
+
+.nav2 {
+  position: relative;
+  left: 40%;
+}
+
+.box-1 {
+  font-family: 'La Belle Aurore', cursive;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  left: 300px;
+  position: relative;
+  animation-name: box;
+  margin-left: 275px;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+}
+
+@keyframes box {
+  0% { background-color: aqua; left: 0; top: 0; }
+  25% { background-color: aqua; left: 200px; top: 0; }
+  50% { background-color: aqua; left: 200px; top: 200px; }
+  75% { background-color: aqua; left: 0px; top: 200px; }
+  100% { background-color: aqua; left: 0px; top: 0px; }
+}
+
+.box-2 {
+  font-family: 'La Belle Aurore', cursive;
+  width: 100px;
+  height: 100px;
+  background-color:  color: hsl(200, 100%, 85%);
+  left: 300px;
+  position: relative;
+  animation-name: box;
+  margin-left: 275px;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+}
+
+@keyframes box {
+  0% { background-color: aqua; left: 0; top: 0; }
+  25% { background-color: aqua; left: 200px; top: 0; }
+  50% { background-color: aqua; left: 200px; top: 200px; }
+  75% { background-color: aqua; left: 0px; top: 200px; }
+  100% { background-color: aqua; left: 0px; top: 0px; }
+}
+
+.enter-info {
+  font-family: 'La Belle Aurore', cursive;
+  width: 100px;
+  height: 100px;
+  background-color: dodgerblue;
+  left: 550px;
+  position: relative;
+  animation-name: info;
+  margin-left: 275px;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes info {
+  0% { background-color: aqua; left: 0; top: 0; }
+  25% { background-color: aqua; left: 200px; top: 0; }
+  50% { background-color: aqua; left: 200px; top: 200px; }
+  75% { background-color: aqua; left: 0px; top: 200px; }
+  100% { background-color: aqua; left: 0px; top: 0px; }
+}

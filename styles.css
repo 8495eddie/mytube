@@ -7,13 +7,17 @@ nav {
     left: 600px;
 }
 
+.nav2 {
+  color: darkblue;
+}
+
 .opac, nav { opacity: .6;}
 .opac, h1 { opacity: .6;}
 
 
 h1 {
     font-family: 'La Belle Aurore', cursive;
-    color:hsl(200, 100%, 80%);
+    color:darkblue;
     position: relative;
     left: 300px;
     border-style: inset;
@@ -77,12 +81,9 @@ a {
 }
 
 p {
+  padding-left: 22%;
   font-family: 'La Belle Aurore', cursive;
-  color:hsl(200, 100%, 80%)
-}
-
-.backgroundmovies {
-  background-image: url(https://www.androidguys.com/wp-content/uploads/2015/12/Wave-Wallpapers-1.jpg)
+  color:hsl(200, 100%, 80%)  
 }
 
 .backgroundgames {
@@ -94,7 +95,7 @@ p {
 }
 
 .backgroundupload {
-  background-image: url(https://wallup.net/wp-content/uploads/2018/09/25/595603-abstract-3D-cube.jpg)
+  background-image: url(https://www.androidguys.com/wp-content/uploads/2015/12/Wave-Wallpapers-1.jpg)
 }
 
 .bluefont {
